@@ -73,6 +73,9 @@ if ~isdeployed
     % KSVD_path = [pwd,FS,'toolbox'];
     addpath([pathstr,filesep,'toolbox',filesep,'ksvdbox']);
     addpath([pathstr,filesep,'toolbox',filesep,'ompbox']);
+
+    % Tensorlab toolbox is also assumed to be downloaded
+    addpath([pathstr,filesep,'..',filesep,'tensorlab_2016-03-28']);
 end
 
 % if ~exist('toolbox','dir')
